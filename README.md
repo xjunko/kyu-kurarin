@@ -8,7 +8,8 @@ a simple recreation of the kyu-kurarin pv
 
 currently its not possible to compile with the default tcc compiler, so use `clang` or `gcc`, whichever one you liked.
 
-```bash
+```zsh
+git clone --recursive https://github.com/xjunko/kyu-kurarin-demo
 v -cc [clang/gcc] run .
 ```
 
