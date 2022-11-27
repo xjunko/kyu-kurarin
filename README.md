@@ -10,6 +10,7 @@ currently its not possible to compile with the default tcc compiler, so use `cla
 
 ```zsh
 git clone --recursive https://github.com/xjunko/kyu-kurarin-demo
+cd kyu-kurarin-demo
 v -cc [clang/gcc] run .
 ```
 
