@@ -39,7 +39,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_1.textures << window.ctx.create_image('assets/sb/pink.png')
+	generated_sprite_1.textures << window.backend.create_image('assets/sb/pink.png')
 
 	generated_sprite_1.reset_size_based_on_texture()
 	generated_sprite_1.reset_attributes_based_on_transforms()
@@ -1714,7 +1714,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_2.textures << window.ctx.create_image('assets/sb/7frames/f1.png')
+	generated_sprite_2.textures << window.backend.create_image('assets/sb/7frames/f1.png')
 
 	generated_sprite_2.reset_size_based_on_texture()
 	generated_sprite_2.reset_attributes_based_on_transforms()
@@ -3261,7 +3261,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_3.textures << window.ctx.create_image('assets/sb/7frames/f2.png')
+	generated_sprite_3.textures << window.backend.create_image('assets/sb/7frames/f2.png')
 
 	generated_sprite_3.reset_size_based_on_texture()
 	generated_sprite_3.reset_attributes_based_on_transforms()
@@ -4688,7 +4688,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_4.textures << window.ctx.create_image('assets/sb/7frames/f3.png')
+	generated_sprite_4.textures << window.backend.create_image('assets/sb/7frames/f3.png')
 
 	generated_sprite_4.reset_size_based_on_texture()
 	generated_sprite_4.reset_attributes_based_on_transforms()
@@ -5979,7 +5979,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_5.textures << window.ctx.create_image('assets/sb/7frames/f4.png')
+	generated_sprite_5.textures << window.backend.create_image('assets/sb/7frames/f4.png')
 
 	generated_sprite_5.reset_size_based_on_texture()
 	generated_sprite_5.reset_attributes_based_on_transforms()
@@ -7142,7 +7142,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_6.textures << window.ctx.create_image('assets/sb/7frames/f5.png')
+	generated_sprite_6.textures << window.backend.create_image('assets/sb/7frames/f5.png')
 
 	generated_sprite_6.reset_size_based_on_texture()
 	generated_sprite_6.reset_attributes_based_on_transforms()
@@ -8177,7 +8177,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_7.textures << window.ctx.create_image('assets/sb/7frames/f6.png')
+	generated_sprite_7.textures << window.backend.create_image('assets/sb/7frames/f6.png')
 
 	generated_sprite_7.reset_size_based_on_texture()
 	generated_sprite_7.reset_attributes_based_on_transforms()
@@ -9084,7 +9084,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_8.textures << window.ctx.create_image('assets/sb/7frames/f7.png')
+	generated_sprite_8.textures << window.backend.create_image('assets/sb/7frames/f7.png')
 
 	generated_sprite_8.reset_size_based_on_texture()
 	generated_sprite_8.reset_attributes_based_on_transforms()
@@ -9303,7 +9303,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_9.textures << window.ctx.create_image('assets/sb/clock/c1.png')
+	generated_sprite_9.textures << window.backend.create_image('assets/sb/clock/c1.png')
 
 	generated_sprite_9.reset_size_based_on_texture()
 	generated_sprite_9.reset_attributes_based_on_transforms()
@@ -9506,7 +9506,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_10.textures << window.ctx.create_image('assets/sb/clock/c2.png')
+	generated_sprite_10.textures << window.backend.create_image('assets/sb/clock/c2.png')
 
 	generated_sprite_10.reset_size_based_on_texture()
 	generated_sprite_10.reset_attributes_based_on_transforms()
@@ -9709,7 +9709,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_11.textures << window.ctx.create_image('assets/sb/clock/c3.png')
+	generated_sprite_11.textures << window.backend.create_image('assets/sb/clock/c3.png')
 
 	generated_sprite_11.reset_size_based_on_texture()
 	generated_sprite_11.reset_attributes_based_on_transforms()
@@ -9912,7 +9912,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_12.textures << window.ctx.create_image('assets/sb/clock/c4.png')
+	generated_sprite_12.textures << window.backend.create_image('assets/sb/clock/c4.png')
 
 	generated_sprite_12.reset_size_based_on_texture()
 	generated_sprite_12.reset_attributes_based_on_transforms()
@@ -9939,7 +9939,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [260.0]
 		after: [260.0]
 	)
-	generated_sprite_13.textures << window.ctx.create_image('assets/sb/stare/s1.png')
+	generated_sprite_13.textures << window.backend.create_image('assets/sb/stare/s1.png')
 
 	generated_sprite_13.reset_size_based_on_texture()
 	generated_sprite_13.reset_attributes_based_on_transforms()
@@ -9966,7 +9966,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [260.0]
 		after: [260.0]
 	)
-	generated_sprite_14.textures << window.ctx.create_image('assets/sb/stare/s2.png')
+	generated_sprite_14.textures << window.backend.create_image('assets/sb/stare/s2.png')
 
 	generated_sprite_14.reset_size_based_on_texture()
 	generated_sprite_14.reset_attributes_based_on_transforms()
@@ -9993,7 +9993,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [260.0]
 		after: [260.0]
 	)
-	generated_sprite_15.textures << window.ctx.create_image('assets/sb/stare/s3.png')
+	generated_sprite_15.textures << window.backend.create_image('assets/sb/stare/s3.png')
 
 	generated_sprite_15.reset_size_based_on_texture()
 	generated_sprite_15.reset_attributes_based_on_transforms()
@@ -10020,7 +10020,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [260.0]
 		after: [260.0]
 	)
-	generated_sprite_16.textures << window.ctx.create_image('assets/sb/stare/s4.png')
+	generated_sprite_16.textures << window.backend.create_image('assets/sb/stare/s4.png')
 
 	generated_sprite_16.reset_size_based_on_texture()
 	generated_sprite_16.reset_attributes_based_on_transforms()
@@ -10127,7 +10127,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_17.textures << window.ctx.create_image('assets/sb/stack/s1.png')
+	generated_sprite_17.textures << window.backend.create_image('assets/sb/stack/s1.png')
 
 	generated_sprite_17.reset_size_based_on_texture()
 	generated_sprite_17.reset_attributes_based_on_transforms()
@@ -10226,7 +10226,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_18.textures << window.ctx.create_image('assets/sb/stack/s1.png')
+	generated_sprite_18.textures << window.backend.create_image('assets/sb/stack/s1.png')
 
 	generated_sprite_18.reset_size_based_on_texture()
 	generated_sprite_18.reset_attributes_based_on_transforms()
@@ -10317,7 +10317,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_19.textures << window.ctx.create_image('assets/sb/stack/s2.png')
+	generated_sprite_19.textures << window.backend.create_image('assets/sb/stack/s2.png')
 
 	generated_sprite_19.reset_size_based_on_texture()
 	generated_sprite_19.reset_attributes_based_on_transforms()
@@ -10400,7 +10400,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_20.textures << window.ctx.create_image('assets/sb/stack/s3.png')
+	generated_sprite_20.textures << window.backend.create_image('assets/sb/stack/s3.png')
 
 	generated_sprite_20.reset_size_based_on_texture()
 	generated_sprite_20.reset_attributes_based_on_transforms()
@@ -10475,7 +10475,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_21.textures << window.ctx.create_image('assets/sb/stack/s3.png')
+	generated_sprite_21.textures << window.backend.create_image('assets/sb/stack/s3.png')
 
 	generated_sprite_21.reset_size_based_on_texture()
 	generated_sprite_21.reset_attributes_based_on_transforms()
@@ -10542,7 +10542,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_22.textures << window.ctx.create_image('assets/sb/stack/s1.png')
+	generated_sprite_22.textures << window.backend.create_image('assets/sb/stack/s1.png')
 
 	generated_sprite_22.reset_size_based_on_texture()
 	generated_sprite_22.reset_attributes_based_on_transforms()
@@ -10601,7 +10601,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_23.textures << window.ctx.create_image('assets/sb/stack/s3.png')
+	generated_sprite_23.textures << window.backend.create_image('assets/sb/stack/s3.png')
 
 	generated_sprite_23.reset_size_based_on_texture()
 	generated_sprite_23.reset_attributes_based_on_transforms()
@@ -10652,7 +10652,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_24.textures << window.ctx.create_image('assets/sb/stack/s1.png')
+	generated_sprite_24.textures << window.backend.create_image('assets/sb/stack/s1.png')
 
 	generated_sprite_24.reset_size_based_on_texture()
 	generated_sprite_24.reset_attributes_based_on_transforms()
@@ -10695,7 +10695,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_25.textures << window.ctx.create_image('assets/sb/stack/s4.png')
+	generated_sprite_25.textures << window.backend.create_image('assets/sb/stack/s4.png')
 
 	generated_sprite_25.reset_size_based_on_texture()
 	generated_sprite_25.reset_attributes_based_on_transforms()
@@ -10810,7 +10810,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_26.textures << window.ctx.create_image('assets/sb/stack/s1.png')
+	generated_sprite_26.textures << window.backend.create_image('assets/sb/stack/s1.png')
 
 	generated_sprite_26.reset_size_based_on_texture()
 	generated_sprite_26.reset_attributes_based_on_transforms()
@@ -10917,7 +10917,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_27.textures << window.ctx.create_image('assets/sb/stack/s4.png')
+	generated_sprite_27.textures << window.backend.create_image('assets/sb/stack/s4.png')
 
 	generated_sprite_27.reset_size_based_on_texture()
 	generated_sprite_27.reset_attributes_based_on_transforms()
@@ -11016,7 +11016,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_28.textures << window.ctx.create_image('assets/sb/stack/s3.png')
+	generated_sprite_28.textures << window.backend.create_image('assets/sb/stack/s3.png')
 
 	generated_sprite_28.reset_size_based_on_texture()
 	generated_sprite_28.reset_attributes_based_on_transforms()
@@ -11107,7 +11107,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_29.textures << window.ctx.create_image('assets/sb/stack/s5.png')
+	generated_sprite_29.textures << window.backend.create_image('assets/sb/stack/s5.png')
 
 	generated_sprite_29.reset_size_based_on_texture()
 	generated_sprite_29.reset_attributes_based_on_transforms()
@@ -11190,7 +11190,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_30.textures << window.ctx.create_image('assets/sb/stack/s5.png')
+	generated_sprite_30.textures << window.backend.create_image('assets/sb/stack/s5.png')
 
 	generated_sprite_30.reset_size_based_on_texture()
 	generated_sprite_30.reset_attributes_based_on_transforms()
@@ -11265,7 +11265,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_31.textures << window.ctx.create_image('assets/sb/stack/s4.png')
+	generated_sprite_31.textures << window.backend.create_image('assets/sb/stack/s4.png')
 
 	generated_sprite_31.reset_size_based_on_texture()
 	generated_sprite_31.reset_attributes_based_on_transforms()
@@ -11332,7 +11332,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_32.textures << window.ctx.create_image('assets/sb/stack/s2.png')
+	generated_sprite_32.textures << window.backend.create_image('assets/sb/stack/s2.png')
 
 	generated_sprite_32.reset_size_based_on_texture()
 	generated_sprite_32.reset_attributes_based_on_transforms()
@@ -11391,7 +11391,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_33.textures << window.ctx.create_image('assets/sb/stack/s1.png')
+	generated_sprite_33.textures << window.backend.create_image('assets/sb/stack/s1.png')
 
 	generated_sprite_33.reset_size_based_on_texture()
 	generated_sprite_33.reset_attributes_based_on_transforms()
@@ -11442,7 +11442,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_34.textures << window.ctx.create_image('assets/sb/stack/s3.png')
+	generated_sprite_34.textures << window.backend.create_image('assets/sb/stack/s3.png')
 
 	generated_sprite_34.reset_size_based_on_texture()
 	generated_sprite_34.reset_attributes_based_on_transforms()
@@ -11485,7 +11485,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_35.textures << window.ctx.create_image('assets/sb/stack/s1.png')
+	generated_sprite_35.textures << window.backend.create_image('assets/sb/stack/s1.png')
 
 	generated_sprite_35.reset_size_based_on_texture()
 	generated_sprite_35.reset_attributes_based_on_transforms()
@@ -11584,7 +11584,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_36.textures << window.ctx.create_image('assets/sb/stack/s1.png')
+	generated_sprite_36.textures << window.backend.create_image('assets/sb/stack/s1.png')
 
 	generated_sprite_36.reset_size_based_on_texture()
 	generated_sprite_36.reset_attributes_based_on_transforms()
@@ -11675,7 +11675,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_37.textures << window.ctx.create_image('assets/sb/stack/s1.png')
+	generated_sprite_37.textures << window.backend.create_image('assets/sb/stack/s1.png')
 
 	generated_sprite_37.reset_size_based_on_texture()
 	generated_sprite_37.reset_attributes_based_on_transforms()
@@ -11758,7 +11758,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_38.textures << window.ctx.create_image('assets/sb/stack/s1.png')
+	generated_sprite_38.textures << window.backend.create_image('assets/sb/stack/s1.png')
 
 	generated_sprite_38.reset_size_based_on_texture()
 	generated_sprite_38.reset_attributes_based_on_transforms()
@@ -11833,7 +11833,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_39.textures << window.ctx.create_image('assets/sb/stack/s1.png')
+	generated_sprite_39.textures << window.backend.create_image('assets/sb/stack/s1.png')
 
 	generated_sprite_39.reset_size_based_on_texture()
 	generated_sprite_39.reset_attributes_based_on_transforms()
@@ -11900,7 +11900,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_40.textures << window.ctx.create_image('assets/sb/stack/s1.png')
+	generated_sprite_40.textures << window.backend.create_image('assets/sb/stack/s1.png')
 
 	generated_sprite_40.reset_size_based_on_texture()
 	generated_sprite_40.reset_attributes_based_on_transforms()
@@ -11959,7 +11959,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_41.textures << window.ctx.create_image('assets/sb/stack/s3.png')
+	generated_sprite_41.textures << window.backend.create_image('assets/sb/stack/s3.png')
 
 	generated_sprite_41.reset_size_based_on_texture()
 	generated_sprite_41.reset_attributes_based_on_transforms()
@@ -12010,7 +12010,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_42.textures << window.ctx.create_image('assets/sb/stack/s2.png')
+	generated_sprite_42.textures << window.backend.create_image('assets/sb/stack/s2.png')
 
 	generated_sprite_42.reset_size_based_on_texture()
 	generated_sprite_42.reset_attributes_based_on_transforms()
@@ -12053,7 +12053,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_43.textures << window.ctx.create_image('assets/sb/stack/s1.png')
+	generated_sprite_43.textures << window.backend.create_image('assets/sb/stack/s1.png')
 
 	generated_sprite_43.reset_size_based_on_texture()
 	generated_sprite_43.reset_attributes_based_on_transforms()
@@ -12104,7 +12104,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_44.textures << window.ctx.create_image('assets/sb/stack/s6.png')
+	generated_sprite_44.textures << window.backend.create_image('assets/sb/stack/s6.png')
 
 	generated_sprite_44.reset_size_based_on_texture()
 	generated_sprite_44.reset_attributes_based_on_transforms()
@@ -12155,7 +12155,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_45.textures << window.ctx.create_image('assets/sb/stack/s7.png')
+	generated_sprite_45.textures << window.backend.create_image('assets/sb/stack/s7.png')
 
 	generated_sprite_45.reset_size_based_on_texture()
 	generated_sprite_45.reset_attributes_based_on_transforms()
@@ -12206,7 +12206,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_46.textures << window.ctx.create_image('assets/sb/stack/s8.png')
+	generated_sprite_46.textures << window.backend.create_image('assets/sb/stack/s8.png')
 
 	generated_sprite_46.reset_size_based_on_texture()
 	generated_sprite_46.reset_attributes_based_on_transforms()
@@ -12257,7 +12257,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_47.textures << window.ctx.create_image('assets/sb/stack/s9.png')
+	generated_sprite_47.textures << window.backend.create_image('assets/sb/stack/s9.png')
 
 	generated_sprite_47.reset_size_based_on_texture()
 	generated_sprite_47.reset_attributes_based_on_transforms()
@@ -12372,7 +12372,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_48.textures << window.ctx.create_image('assets/sb/cry stack/c1.png')
+	generated_sprite_48.textures << window.backend.create_image('assets/sb/cry stack/c1.png')
 
 	generated_sprite_48.reset_size_based_on_texture()
 	generated_sprite_48.reset_attributes_based_on_transforms()
@@ -12479,7 +12479,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_49.textures << window.ctx.create_image('assets/sb/cry stack/c2.png')
+	generated_sprite_49.textures << window.backend.create_image('assets/sb/cry stack/c2.png')
 
 	generated_sprite_49.reset_size_based_on_texture()
 	generated_sprite_49.reset_attributes_based_on_transforms()
@@ -12578,7 +12578,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_50.textures << window.ctx.create_image('assets/sb/cry stack/c2.png')
+	generated_sprite_50.textures << window.backend.create_image('assets/sb/cry stack/c2.png')
 
 	generated_sprite_50.reset_size_based_on_texture()
 	generated_sprite_50.reset_attributes_based_on_transforms()
@@ -12669,7 +12669,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_51.textures << window.ctx.create_image('assets/sb/cry stack/c3.png')
+	generated_sprite_51.textures << window.backend.create_image('assets/sb/cry stack/c3.png')
 
 	generated_sprite_51.reset_size_based_on_texture()
 	generated_sprite_51.reset_attributes_based_on_transforms()
@@ -12752,7 +12752,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_52.textures << window.ctx.create_image('assets/sb/cry stack/c3.png')
+	generated_sprite_52.textures << window.backend.create_image('assets/sb/cry stack/c3.png')
 
 	generated_sprite_52.reset_size_based_on_texture()
 	generated_sprite_52.reset_attributes_based_on_transforms()
@@ -12827,7 +12827,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_53.textures << window.ctx.create_image('assets/sb/cry stack/c1.png')
+	generated_sprite_53.textures << window.backend.create_image('assets/sb/cry stack/c1.png')
 
 	generated_sprite_53.reset_size_based_on_texture()
 	generated_sprite_53.reset_attributes_based_on_transforms()
@@ -12894,7 +12894,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_54.textures << window.ctx.create_image('assets/sb/cry stack/c3.png')
+	generated_sprite_54.textures << window.backend.create_image('assets/sb/cry stack/c3.png')
 
 	generated_sprite_54.reset_size_based_on_texture()
 	generated_sprite_54.reset_attributes_based_on_transforms()
@@ -12953,7 +12953,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_55.textures << window.ctx.create_image('assets/sb/cry stack/c1.png')
+	generated_sprite_55.textures << window.backend.create_image('assets/sb/cry stack/c1.png')
 
 	generated_sprite_55.reset_size_based_on_texture()
 	generated_sprite_55.reset_attributes_based_on_transforms()
@@ -13004,7 +13004,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_56.textures << window.ctx.create_image('assets/sb/cry stack/c2.png')
+	generated_sprite_56.textures << window.backend.create_image('assets/sb/cry stack/c2.png')
 
 	generated_sprite_56.reset_size_based_on_texture()
 	generated_sprite_56.reset_attributes_based_on_transforms()
@@ -13127,7 +13127,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_57.textures << window.ctx.create_image('assets/sb/cry stack/c1.png')
+	generated_sprite_57.textures << window.backend.create_image('assets/sb/cry stack/c1.png')
 
 	generated_sprite_57.reset_size_based_on_texture()
 	generated_sprite_57.reset_attributes_based_on_transforms()
@@ -13242,7 +13242,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_58.textures << window.ctx.create_image('assets/sb/cry stack/c1.png')
+	generated_sprite_58.textures << window.backend.create_image('assets/sb/cry stack/c1.png')
 
 	generated_sprite_58.reset_size_based_on_texture()
 	generated_sprite_58.reset_attributes_based_on_transforms()
@@ -13349,7 +13349,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_59.textures << window.ctx.create_image('assets/sb/cry stack/c3.png')
+	generated_sprite_59.textures << window.backend.create_image('assets/sb/cry stack/c3.png')
 
 	generated_sprite_59.reset_size_based_on_texture()
 	generated_sprite_59.reset_attributes_based_on_transforms()
@@ -13448,7 +13448,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_60.textures << window.ctx.create_image('assets/sb/cry stack/c1.png')
+	generated_sprite_60.textures << window.backend.create_image('assets/sb/cry stack/c1.png')
 
 	generated_sprite_60.reset_size_based_on_texture()
 	generated_sprite_60.reset_attributes_based_on_transforms()
@@ -13539,7 +13539,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_61.textures << window.ctx.create_image('assets/sb/cry stack/c4.png')
+	generated_sprite_61.textures << window.backend.create_image('assets/sb/cry stack/c4.png')
 
 	generated_sprite_61.reset_size_based_on_texture()
 	generated_sprite_61.reset_attributes_based_on_transforms()
@@ -13622,7 +13622,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_62.textures << window.ctx.create_image('assets/sb/cry stack/c1.png')
+	generated_sprite_62.textures << window.backend.create_image('assets/sb/cry stack/c1.png')
 
 	generated_sprite_62.reset_size_based_on_texture()
 	generated_sprite_62.reset_attributes_based_on_transforms()
@@ -13697,7 +13697,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_63.textures << window.ctx.create_image('assets/sb/cry stack/c4.png')
+	generated_sprite_63.textures << window.backend.create_image('assets/sb/cry stack/c4.png')
 
 	generated_sprite_63.reset_size_based_on_texture()
 	generated_sprite_63.reset_attributes_based_on_transforms()
@@ -13764,7 +13764,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_64.textures << window.ctx.create_image('assets/sb/cry stack/c1.png')
+	generated_sprite_64.textures << window.backend.create_image('assets/sb/cry stack/c1.png')
 
 	generated_sprite_64.reset_size_based_on_texture()
 	generated_sprite_64.reset_attributes_based_on_transforms()
@@ -13823,7 +13823,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_65.textures << window.ctx.create_image('assets/sb/cry stack/c3.png')
+	generated_sprite_65.textures << window.backend.create_image('assets/sb/cry stack/c3.png')
 
 	generated_sprite_65.reset_size_based_on_texture()
 	generated_sprite_65.reset_attributes_based_on_transforms()
@@ -13874,7 +13874,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_66.textures << window.ctx.create_image('assets/sb/cry stack/c4.png')
+	generated_sprite_66.textures << window.backend.create_image('assets/sb/cry stack/c4.png')
 
 	generated_sprite_66.reset_size_based_on_texture()
 	generated_sprite_66.reset_attributes_based_on_transforms()
@@ -13933,7 +13933,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_67.textures << window.ctx.create_image('assets/sb/cry stack/c1.png')
+	generated_sprite_67.textures << window.backend.create_image('assets/sb/cry stack/c1.png')
 
 	generated_sprite_67.reset_size_based_on_texture()
 	generated_sprite_67.reset_attributes_based_on_transforms()
@@ -13992,7 +13992,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_68.textures << window.ctx.create_image('assets/sb/cry stack/c5.png')
+	generated_sprite_68.textures << window.backend.create_image('assets/sb/cry stack/c5.png')
 
 	generated_sprite_68.reset_size_based_on_texture()
 	generated_sprite_68.reset_attributes_based_on_transforms()
@@ -14107,7 +14107,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_69.textures << window.ctx.create_image('assets/sb/cry stack/c6.png')
+	generated_sprite_69.textures << window.backend.create_image('assets/sb/cry stack/c6.png')
 
 	generated_sprite_69.reset_size_based_on_texture()
 	generated_sprite_69.reset_attributes_based_on_transforms()
@@ -14214,7 +14214,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_70.textures << window.ctx.create_image('assets/sb/cry stack/c6.png')
+	generated_sprite_70.textures << window.backend.create_image('assets/sb/cry stack/c6.png')
 
 	generated_sprite_70.reset_size_based_on_texture()
 	generated_sprite_70.reset_attributes_based_on_transforms()
@@ -14313,7 +14313,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_71.textures << window.ctx.create_image('assets/sb/cry stack/c6.png')
+	generated_sprite_71.textures << window.backend.create_image('assets/sb/cry stack/c6.png')
 
 	generated_sprite_71.reset_size_based_on_texture()
 	generated_sprite_71.reset_attributes_based_on_transforms()
@@ -14404,7 +14404,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_72.textures << window.ctx.create_image('assets/sb/cry stack/c6.png')
+	generated_sprite_72.textures << window.backend.create_image('assets/sb/cry stack/c6.png')
 
 	generated_sprite_72.reset_size_based_on_texture()
 	generated_sprite_72.reset_attributes_based_on_transforms()
@@ -14487,7 +14487,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_73.textures << window.ctx.create_image('assets/sb/cry stack/c6.png')
+	generated_sprite_73.textures << window.backend.create_image('assets/sb/cry stack/c6.png')
 
 	generated_sprite_73.reset_size_based_on_texture()
 	generated_sprite_73.reset_attributes_based_on_transforms()
@@ -14562,7 +14562,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_74.textures << window.ctx.create_image('assets/sb/cry stack/c6.png')
+	generated_sprite_74.textures << window.backend.create_image('assets/sb/cry stack/c6.png')
 
 	generated_sprite_74.reset_size_based_on_texture()
 	generated_sprite_74.reset_attributes_based_on_transforms()
@@ -14629,7 +14629,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_75.textures << window.ctx.create_image('assets/sb/cry stack/c6.png')
+	generated_sprite_75.textures << window.backend.create_image('assets/sb/cry stack/c6.png')
 
 	generated_sprite_75.reset_size_based_on_texture()
 	generated_sprite_75.reset_attributes_based_on_transforms()
@@ -14688,7 +14688,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_76.textures << window.ctx.create_image('assets/sb/cry stack/c6.png')
+	generated_sprite_76.textures << window.backend.create_image('assets/sb/cry stack/c6.png')
 
 	generated_sprite_76.reset_size_based_on_texture()
 	generated_sprite_76.reset_attributes_based_on_transforms()
@@ -14803,7 +14803,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_77.textures << window.ctx.create_image('assets/sb/cry stack/c6.png')
+	generated_sprite_77.textures << window.backend.create_image('assets/sb/cry stack/c6.png')
 
 	generated_sprite_77.reset_size_based_on_texture()
 	generated_sprite_77.reset_attributes_based_on_transforms()
@@ -14910,7 +14910,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_78.textures << window.ctx.create_image('assets/sb/cry stack/c6.png')
+	generated_sprite_78.textures << window.backend.create_image('assets/sb/cry stack/c6.png')
 
 	generated_sprite_78.reset_size_based_on_texture()
 	generated_sprite_78.reset_attributes_based_on_transforms()
@@ -15009,7 +15009,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_79.textures << window.ctx.create_image('assets/sb/cry stack/c6.png')
+	generated_sprite_79.textures << window.backend.create_image('assets/sb/cry stack/c6.png')
 
 	generated_sprite_79.reset_size_based_on_texture()
 	generated_sprite_79.reset_attributes_based_on_transforms()
@@ -15100,7 +15100,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_80.textures << window.ctx.create_image('assets/sb/cry stack/c6.png')
+	generated_sprite_80.textures << window.backend.create_image('assets/sb/cry stack/c6.png')
 
 	generated_sprite_80.reset_size_based_on_texture()
 	generated_sprite_80.reset_attributes_based_on_transforms()
@@ -15183,7 +15183,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_81.textures << window.ctx.create_image('assets/sb/cry stack/c6.png')
+	generated_sprite_81.textures << window.backend.create_image('assets/sb/cry stack/c6.png')
 
 	generated_sprite_81.reset_size_based_on_texture()
 	generated_sprite_81.reset_attributes_based_on_transforms()
@@ -15258,7 +15258,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_82.textures << window.ctx.create_image('assets/sb/cry stack/c6.png')
+	generated_sprite_82.textures << window.backend.create_image('assets/sb/cry stack/c6.png')
 
 	generated_sprite_82.reset_size_based_on_texture()
 	generated_sprite_82.reset_attributes_based_on_transforms()
@@ -15325,7 +15325,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_83.textures << window.ctx.create_image('assets/sb/cry stack/c6.png')
+	generated_sprite_83.textures << window.backend.create_image('assets/sb/cry stack/c6.png')
 
 	generated_sprite_83.reset_size_based_on_texture()
 	generated_sprite_83.reset_attributes_based_on_transforms()
@@ -15384,7 +15384,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_84.textures << window.ctx.create_image('assets/sb/cry stack/c6.png')
+	generated_sprite_84.textures << window.backend.create_image('assets/sb/cry stack/c6.png')
 
 	generated_sprite_84.reset_size_based_on_texture()
 	generated_sprite_84.reset_attributes_based_on_transforms()
@@ -15443,7 +15443,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_85.textures << window.ctx.create_image('assets/sb/cry stack/c6.png')
+	generated_sprite_85.textures << window.backend.create_image('assets/sb/cry stack/c6.png')
 
 	generated_sprite_85.reset_size_based_on_texture()
 	generated_sprite_85.reset_attributes_based_on_transforms()
@@ -15502,7 +15502,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_86.textures << window.ctx.create_image('assets/sb/cry stack/c7.png')
+	generated_sprite_86.textures << window.backend.create_image('assets/sb/cry stack/c7.png')
 
 	generated_sprite_86.reset_size_based_on_texture()
 	generated_sprite_86.reset_attributes_based_on_transforms()
@@ -15545,7 +15545,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_87.textures << window.ctx.create_image('assets/sb/bed/b2.png')
+	generated_sprite_87.textures << window.backend.create_image('assets/sb/bed/b2.png')
 
 	generated_sprite_87.reset_size_based_on_texture()
 	generated_sprite_87.reset_attributes_based_on_transforms()
@@ -15580,7 +15580,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.7]
 		after: [0.7]
 	)
-	generated_sprite_88.textures << window.ctx.create_image('assets/sb/bed/b1.png')
+	generated_sprite_88.textures << window.backend.create_image('assets/sb/bed/b1.png')
 
 	generated_sprite_88.reset_size_based_on_texture()
 	generated_sprite_88.reset_attributes_based_on_transforms()
@@ -16423,7 +16423,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_89.textures << window.ctx.create_image('assets/sb/7frames/f1.png')
+	generated_sprite_89.textures << window.backend.create_image('assets/sb/7frames/f1.png')
 
 	generated_sprite_89.reset_size_based_on_texture()
 	generated_sprite_89.reset_attributes_based_on_transforms()
@@ -17202,7 +17202,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_90.textures << window.ctx.create_image('assets/sb/7frames/f2.png')
+	generated_sprite_90.textures << window.backend.create_image('assets/sb/7frames/f2.png')
 
 	generated_sprite_90.reset_size_based_on_texture()
 	generated_sprite_90.reset_attributes_based_on_transforms()
@@ -17917,7 +17917,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_91.textures << window.ctx.create_image('assets/sb/7frames/f3.png')
+	generated_sprite_91.textures << window.backend.create_image('assets/sb/7frames/f3.png')
 
 	generated_sprite_91.reset_size_based_on_texture()
 	generated_sprite_91.reset_attributes_based_on_transforms()
@@ -18568,7 +18568,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_92.textures << window.ctx.create_image('assets/sb/7frames/f4.png')
+	generated_sprite_92.textures << window.backend.create_image('assets/sb/7frames/f4.png')
 
 	generated_sprite_92.reset_size_based_on_texture()
 	generated_sprite_92.reset_attributes_based_on_transforms()
@@ -19155,7 +19155,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_93.textures << window.ctx.create_image('assets/sb/7frames/f5.png')
+	generated_sprite_93.textures << window.backend.create_image('assets/sb/7frames/f5.png')
 
 	generated_sprite_93.reset_size_based_on_texture()
 	generated_sprite_93.reset_attributes_based_on_transforms()
@@ -19678,7 +19678,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_94.textures << window.ctx.create_image('assets/sb/7frames/f6.png')
+	generated_sprite_94.textures << window.backend.create_image('assets/sb/7frames/f6.png')
 
 	generated_sprite_94.reset_size_based_on_texture()
 	generated_sprite_94.reset_attributes_based_on_transforms()
@@ -20137,7 +20137,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_95.textures << window.ctx.create_image('assets/sb/7frames/f7.png')
+	generated_sprite_95.textures << window.backend.create_image('assets/sb/7frames/f7.png')
 
 	generated_sprite_95.reset_size_based_on_texture()
 	generated_sprite_95.reset_attributes_based_on_transforms()
@@ -20180,7 +20180,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_96.textures << window.ctx.create_image('assets/sb/bed/b2.png')
+	generated_sprite_96.textures << window.backend.create_image('assets/sb/bed/b2.png')
 
 	generated_sprite_96.reset_size_based_on_texture()
 	generated_sprite_96.reset_attributes_based_on_transforms()
@@ -20215,7 +20215,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.7]
 		after: [0.7]
 	)
-	generated_sprite_97.textures << window.ctx.create_image('assets/sb/bed/b1.png')
+	generated_sprite_97.textures << window.backend.create_image('assets/sb/bed/b1.png')
 
 	generated_sprite_97.reset_size_based_on_texture()
 	generated_sprite_97.reset_attributes_based_on_transforms()
@@ -20258,7 +20258,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_98.textures << window.ctx.create_image('assets/sb/bed/b3.png')
+	generated_sprite_98.textures << window.backend.create_image('assets/sb/bed/b3.png')
 
 	generated_sprite_98.reset_size_based_on_texture()
 	generated_sprite_98.reset_attributes_based_on_transforms()
@@ -20301,7 +20301,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_99.textures << window.ctx.create_image('assets/sb/bed/b4.png')
+	generated_sprite_99.textures << window.backend.create_image('assets/sb/bed/b4.png')
 
 	generated_sprite_99.reset_size_based_on_texture()
 	generated_sprite_99.reset_attributes_based_on_transforms()
@@ -20352,7 +20352,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [0.0]
 		after: [0.0]
 	)
-	generated_sprite_100.textures << window.ctx.create_image('assets/sb/bed/b5.png')
+	generated_sprite_100.textures << window.backend.create_image('assets/sb/bed/b5.png')
 
 	generated_sprite_100.reset_size_based_on_texture()
 	generated_sprite_100.reset_attributes_based_on_transforms()
@@ -20379,7 +20379,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [260.0]
 		after: [260.0]
 	)
-	generated_sprite_101.textures << window.ctx.create_image('assets/sb/stare/s5.png')
+	generated_sprite_101.textures << window.backend.create_image('assets/sb/stare/s5.png')
 
 	generated_sprite_101.reset_size_based_on_texture()
 	generated_sprite_101.reset_attributes_based_on_transforms()
@@ -20406,7 +20406,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [260.0]
 		after: [260.0]
 	)
-	generated_sprite_102.textures << window.ctx.create_image('assets/sb/stare/s6.png')
+	generated_sprite_102.textures << window.backend.create_image('assets/sb/stare/s6.png')
 
 	generated_sprite_102.reset_size_based_on_texture()
 	generated_sprite_102.reset_attributes_based_on_transforms()
@@ -20433,7 +20433,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [260.0]
 		after: [260.0]
 	)
-	generated_sprite_103.textures << window.ctx.create_image('assets/sb/stare/s7.png')
+	generated_sprite_103.textures << window.backend.create_image('assets/sb/stare/s7.png')
 
 	generated_sprite_103.reset_size_based_on_texture()
 	generated_sprite_103.reset_attributes_based_on_transforms()
@@ -20484,7 +20484,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_104.textures << window.ctx.create_image('assets/sb/a/_000.png')
+	generated_sprite_104.textures << window.backend.create_image('assets/sb/a/_000.png')
 
 	generated_sprite_104.reset_size_based_on_texture()
 	generated_sprite_104.reset_attributes_based_on_transforms()
@@ -20535,7 +20535,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_105.textures << window.ctx.create_image('assets/sb/a/_001.png')
+	generated_sprite_105.textures << window.backend.create_image('assets/sb/a/_001.png')
 
 	generated_sprite_105.reset_size_based_on_texture()
 	generated_sprite_105.reset_attributes_based_on_transforms()
@@ -20586,7 +20586,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_106.textures << window.ctx.create_image('assets/sb/a/_002.png')
+	generated_sprite_106.textures << window.backend.create_image('assets/sb/a/_002.png')
 
 	generated_sprite_106.reset_size_based_on_texture()
 	generated_sprite_106.reset_attributes_based_on_transforms()
@@ -20637,7 +20637,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_107.textures << window.ctx.create_image('assets/sb/a/_003.png')
+	generated_sprite_107.textures << window.backend.create_image('assets/sb/a/_003.png')
 
 	generated_sprite_107.reset_size_based_on_texture()
 	generated_sprite_107.reset_attributes_based_on_transforms()
@@ -20688,7 +20688,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_108.textures << window.ctx.create_image('assets/sb/a/_004.png')
+	generated_sprite_108.textures << window.backend.create_image('assets/sb/a/_004.png')
 
 	generated_sprite_108.reset_size_based_on_texture()
 	generated_sprite_108.reset_attributes_based_on_transforms()
@@ -20739,7 +20739,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_109.textures << window.ctx.create_image('assets/sb/a/_005.png')
+	generated_sprite_109.textures << window.backend.create_image('assets/sb/a/_005.png')
 
 	generated_sprite_109.reset_size_based_on_texture()
 	generated_sprite_109.reset_attributes_based_on_transforms()
@@ -20790,7 +20790,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_110.textures << window.ctx.create_image('assets/sb/a/_006.png')
+	generated_sprite_110.textures << window.backend.create_image('assets/sb/a/_006.png')
 
 	generated_sprite_110.reset_size_based_on_texture()
 	generated_sprite_110.reset_attributes_based_on_transforms()
@@ -20841,7 +20841,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_111.textures << window.ctx.create_image('assets/sb/a/_007.png')
+	generated_sprite_111.textures << window.backend.create_image('assets/sb/a/_007.png')
 
 	generated_sprite_111.reset_size_based_on_texture()
 	generated_sprite_111.reset_attributes_based_on_transforms()
@@ -20892,7 +20892,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_112.textures << window.ctx.create_image('assets/sb/a/_008.png')
+	generated_sprite_112.textures << window.backend.create_image('assets/sb/a/_008.png')
 
 	generated_sprite_112.reset_size_based_on_texture()
 	generated_sprite_112.reset_attributes_based_on_transforms()
@@ -20943,7 +20943,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_113.textures << window.ctx.create_image('assets/sb/a/_009.png')
+	generated_sprite_113.textures << window.backend.create_image('assets/sb/a/_009.png')
 
 	generated_sprite_113.reset_size_based_on_texture()
 	generated_sprite_113.reset_attributes_based_on_transforms()
@@ -20994,7 +20994,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_114.textures << window.ctx.create_image('assets/sb/a/_00a.png')
+	generated_sprite_114.textures << window.backend.create_image('assets/sb/a/_00a.png')
 
 	generated_sprite_114.reset_size_based_on_texture()
 	generated_sprite_114.reset_attributes_based_on_transforms()
@@ -21037,7 +21037,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_115.textures << window.ctx.create_image('assets/sb/f/_000.png')
+	generated_sprite_115.textures << window.backend.create_image('assets/sb/f/_000.png')
 
 	generated_sprite_115.reset_size_based_on_texture()
 	generated_sprite_115.reset_attributes_based_on_transforms()
@@ -21080,7 +21080,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_116.textures << window.ctx.create_image('assets/sb/f/_001.png')
+	generated_sprite_116.textures << window.backend.create_image('assets/sb/f/_001.png')
 
 	generated_sprite_116.reset_size_based_on_texture()
 	generated_sprite_116.reset_attributes_based_on_transforms()
@@ -21123,7 +21123,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_117.textures << window.ctx.create_image('assets/sb/f/_002.png')
+	generated_sprite_117.textures << window.backend.create_image('assets/sb/f/_002.png')
 
 	generated_sprite_117.reset_size_based_on_texture()
 	generated_sprite_117.reset_attributes_based_on_transforms()
@@ -21166,7 +21166,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_118.textures << window.ctx.create_image('assets/sb/f/_003.png')
+	generated_sprite_118.textures << window.backend.create_image('assets/sb/f/_003.png')
 
 	generated_sprite_118.reset_size_based_on_texture()
 	generated_sprite_118.reset_attributes_based_on_transforms()
@@ -21209,7 +21209,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_119.textures << window.ctx.create_image('assets/sb/f/_004.png')
+	generated_sprite_119.textures << window.backend.create_image('assets/sb/f/_004.png')
 
 	generated_sprite_119.reset_size_based_on_texture()
 	generated_sprite_119.reset_attributes_based_on_transforms()
@@ -21252,7 +21252,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_120.textures << window.ctx.create_image('assets/sb/f/_005.png')
+	generated_sprite_120.textures << window.backend.create_image('assets/sb/f/_005.png')
 
 	generated_sprite_120.reset_size_based_on_texture()
 	generated_sprite_120.reset_attributes_based_on_transforms()
@@ -21295,7 +21295,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_121.textures << window.ctx.create_image('assets/sb/f/_006.png')
+	generated_sprite_121.textures << window.backend.create_image('assets/sb/f/_006.png')
 
 	generated_sprite_121.reset_size_based_on_texture()
 	generated_sprite_121.reset_attributes_based_on_transforms()
@@ -21338,7 +21338,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_122.textures << window.ctx.create_image('assets/sb/f/_007.png')
+	generated_sprite_122.textures << window.backend.create_image('assets/sb/f/_007.png')
 
 	generated_sprite_122.reset_size_based_on_texture()
 	generated_sprite_122.reset_attributes_based_on_transforms()
@@ -21381,7 +21381,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_123.textures << window.ctx.create_image('assets/sb/f/_008.png')
+	generated_sprite_123.textures << window.backend.create_image('assets/sb/f/_008.png')
 
 	generated_sprite_123.reset_size_based_on_texture()
 	generated_sprite_123.reset_attributes_based_on_transforms()
@@ -21424,7 +21424,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_124.textures << window.ctx.create_image('assets/sb/f/_009.png')
+	generated_sprite_124.textures << window.backend.create_image('assets/sb/f/_009.png')
 
 	generated_sprite_124.reset_size_based_on_texture()
 	generated_sprite_124.reset_attributes_based_on_transforms()
@@ -21467,7 +21467,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_125.textures << window.ctx.create_image('assets/sb/f/_00a.png')
+	generated_sprite_125.textures << window.backend.create_image('assets/sb/f/_00a.png')
 
 	generated_sprite_125.reset_size_based_on_texture()
 	generated_sprite_125.reset_attributes_based_on_transforms()
@@ -21510,7 +21510,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_126.textures << window.ctx.create_image('assets/sb/f/_00b.png')
+	generated_sprite_126.textures << window.backend.create_image('assets/sb/f/_00b.png')
 
 	generated_sprite_126.reset_size_based_on_texture()
 	generated_sprite_126.reset_attributes_based_on_transforms()
@@ -21553,7 +21553,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_127.textures << window.ctx.create_image('assets/sb/f/_00c.png')
+	generated_sprite_127.textures << window.backend.create_image('assets/sb/f/_00c.png')
 
 	generated_sprite_127.reset_size_based_on_texture()
 	generated_sprite_127.reset_attributes_based_on_transforms()
@@ -21596,7 +21596,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_128.textures << window.ctx.create_image('assets/sb/f/_00d.png')
+	generated_sprite_128.textures << window.backend.create_image('assets/sb/f/_00d.png')
 
 	generated_sprite_128.reset_size_based_on_texture()
 	generated_sprite_128.reset_attributes_based_on_transforms()
@@ -21639,7 +21639,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_129.textures << window.ctx.create_image('assets/sb/f/_00e.png')
+	generated_sprite_129.textures << window.backend.create_image('assets/sb/f/_00e.png')
 
 	generated_sprite_129.reset_size_based_on_texture()
 	generated_sprite_129.reset_attributes_based_on_transforms()
@@ -21682,7 +21682,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_130.textures << window.ctx.create_image('assets/sb/f/_00f.png')
+	generated_sprite_130.textures << window.backend.create_image('assets/sb/f/_00f.png')
 
 	generated_sprite_130.reset_size_based_on_texture()
 	generated_sprite_130.reset_attributes_based_on_transforms()
@@ -21725,7 +21725,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_131.textures << window.ctx.create_image('assets/sb/f/_010.png')
+	generated_sprite_131.textures << window.backend.create_image('assets/sb/f/_010.png')
 
 	generated_sprite_131.reset_size_based_on_texture()
 	generated_sprite_131.reset_attributes_based_on_transforms()
@@ -21768,7 +21768,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_132.textures << window.ctx.create_image('assets/sb/f/_011.png')
+	generated_sprite_132.textures << window.backend.create_image('assets/sb/f/_011.png')
 
 	generated_sprite_132.reset_size_based_on_texture()
 	generated_sprite_132.reset_attributes_based_on_transforms()
@@ -21811,7 +21811,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_133.textures << window.ctx.create_image('assets/sb/f/_012.png')
+	generated_sprite_133.textures << window.backend.create_image('assets/sb/f/_012.png')
 
 	generated_sprite_133.reset_size_based_on_texture()
 	generated_sprite_133.reset_attributes_based_on_transforms()
@@ -21854,7 +21854,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_134.textures << window.ctx.create_image('assets/sb/f/_013.png')
+	generated_sprite_134.textures << window.backend.create_image('assets/sb/f/_013.png')
 
 	generated_sprite_134.reset_size_based_on_texture()
 	generated_sprite_134.reset_attributes_based_on_transforms()
@@ -21897,7 +21897,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_135.textures << window.ctx.create_image('assets/sb/f/_011.png')
+	generated_sprite_135.textures << window.backend.create_image('assets/sb/f/_011.png')
 
 	generated_sprite_135.reset_size_based_on_texture()
 	generated_sprite_135.reset_attributes_based_on_transforms()
@@ -21940,7 +21940,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_136.textures << window.ctx.create_image('assets/sb/f/_014.png')
+	generated_sprite_136.textures << window.backend.create_image('assets/sb/f/_014.png')
 
 	generated_sprite_136.reset_size_based_on_texture()
 	generated_sprite_136.reset_attributes_based_on_transforms()
@@ -21983,7 +21983,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_137.textures << window.ctx.create_image('assets/sb/f/_015.png')
+	generated_sprite_137.textures << window.backend.create_image('assets/sb/f/_015.png')
 
 	generated_sprite_137.reset_size_based_on_texture()
 	generated_sprite_137.reset_attributes_based_on_transforms()
@@ -22026,7 +22026,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_138.textures << window.ctx.create_image('assets/sb/f/_016.png')
+	generated_sprite_138.textures << window.backend.create_image('assets/sb/f/_016.png')
 
 	generated_sprite_138.reset_size_based_on_texture()
 	generated_sprite_138.reset_attributes_based_on_transforms()
@@ -22069,7 +22069,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_139.textures << window.ctx.create_image('assets/sb/f/_017.png')
+	generated_sprite_139.textures << window.backend.create_image('assets/sb/f/_017.png')
 
 	generated_sprite_139.reset_size_based_on_texture()
 	generated_sprite_139.reset_attributes_based_on_transforms()
@@ -22112,7 +22112,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_140.textures << window.ctx.create_image('assets/sb/f/_018.png')
+	generated_sprite_140.textures << window.backend.create_image('assets/sb/f/_018.png')
 
 	generated_sprite_140.reset_size_based_on_texture()
 	generated_sprite_140.reset_attributes_based_on_transforms()
@@ -22155,7 +22155,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_141.textures << window.ctx.create_image('assets/sb/f/_019.png')
+	generated_sprite_141.textures << window.backend.create_image('assets/sb/f/_019.png')
 
 	generated_sprite_141.reset_size_based_on_texture()
 	generated_sprite_141.reset_attributes_based_on_transforms()
@@ -22198,7 +22198,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_142.textures << window.ctx.create_image('assets/sb/f/_01a.png')
+	generated_sprite_142.textures << window.backend.create_image('assets/sb/f/_01a.png')
 
 	generated_sprite_142.reset_size_based_on_texture()
 	generated_sprite_142.reset_attributes_based_on_transforms()
@@ -22241,7 +22241,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_143.textures << window.ctx.create_image('assets/sb/f/_01b.png')
+	generated_sprite_143.textures << window.backend.create_image('assets/sb/f/_01b.png')
 
 	generated_sprite_143.reset_size_based_on_texture()
 	generated_sprite_143.reset_attributes_based_on_transforms()
@@ -22284,7 +22284,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_144.textures << window.ctx.create_image('assets/sb/f/_01c.png')
+	generated_sprite_144.textures << window.backend.create_image('assets/sb/f/_01c.png')
 
 	generated_sprite_144.reset_size_based_on_texture()
 	generated_sprite_144.reset_attributes_based_on_transforms()
@@ -22327,7 +22327,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_145.textures << window.ctx.create_image('assets/sb/f/_01d.png')
+	generated_sprite_145.textures << window.backend.create_image('assets/sb/f/_01d.png')
 
 	generated_sprite_145.reset_size_based_on_texture()
 	generated_sprite_145.reset_attributes_based_on_transforms()
@@ -22370,7 +22370,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_146.textures << window.ctx.create_image('assets/sb/f/_011.png')
+	generated_sprite_146.textures << window.backend.create_image('assets/sb/f/_011.png')
 
 	generated_sprite_146.reset_size_based_on_texture()
 	generated_sprite_146.reset_attributes_based_on_transforms()
@@ -22413,7 +22413,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_147.textures << window.ctx.create_image('assets/sb/f/_01e.png')
+	generated_sprite_147.textures << window.backend.create_image('assets/sb/f/_01e.png')
 
 	generated_sprite_147.reset_size_based_on_texture()
 	generated_sprite_147.reset_attributes_based_on_transforms()
@@ -22456,7 +22456,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_148.textures << window.ctx.create_image('assets/sb/f/_01f.png')
+	generated_sprite_148.textures << window.backend.create_image('assets/sb/f/_01f.png')
 
 	generated_sprite_148.reset_size_based_on_texture()
 	generated_sprite_148.reset_attributes_based_on_transforms()
@@ -22499,7 +22499,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_149.textures << window.ctx.create_image('assets/sb/f/_020.png')
+	generated_sprite_149.textures << window.backend.create_image('assets/sb/f/_020.png')
 
 	generated_sprite_149.reset_size_based_on_texture()
 	generated_sprite_149.reset_attributes_based_on_transforms()
@@ -22542,7 +22542,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_150.textures << window.ctx.create_image('assets/sb/f/_000.png')
+	generated_sprite_150.textures << window.backend.create_image('assets/sb/f/_000.png')
 
 	generated_sprite_150.reset_size_based_on_texture()
 	generated_sprite_150.reset_attributes_based_on_transforms()
@@ -22585,7 +22585,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_151.textures << window.ctx.create_image('assets/sb/f/_001.png')
+	generated_sprite_151.textures << window.backend.create_image('assets/sb/f/_001.png')
 
 	generated_sprite_151.reset_size_based_on_texture()
 	generated_sprite_151.reset_attributes_based_on_transforms()
@@ -22628,7 +22628,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_152.textures << window.ctx.create_image('assets/sb/f/_021.png')
+	generated_sprite_152.textures << window.backend.create_image('assets/sb/f/_021.png')
 
 	generated_sprite_152.reset_size_based_on_texture()
 	generated_sprite_152.reset_attributes_based_on_transforms()
@@ -22671,7 +22671,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_153.textures << window.ctx.create_image('assets/sb/f/_022.png')
+	generated_sprite_153.textures << window.backend.create_image('assets/sb/f/_022.png')
 
 	generated_sprite_153.reset_size_based_on_texture()
 	generated_sprite_153.reset_attributes_based_on_transforms()
@@ -22714,7 +22714,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_154.textures << window.ctx.create_image('assets/sb/f/_023.png')
+	generated_sprite_154.textures << window.backend.create_image('assets/sb/f/_023.png')
 
 	generated_sprite_154.reset_size_based_on_texture()
 	generated_sprite_154.reset_attributes_based_on_transforms()
@@ -22757,7 +22757,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_155.textures << window.ctx.create_image('assets/sb/f/_024.png')
+	generated_sprite_155.textures << window.backend.create_image('assets/sb/f/_024.png')
 
 	generated_sprite_155.reset_size_based_on_texture()
 	generated_sprite_155.reset_attributes_based_on_transforms()
@@ -22800,7 +22800,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_156.textures << window.ctx.create_image('assets/sb/f/_025.png')
+	generated_sprite_156.textures << window.backend.create_image('assets/sb/f/_025.png')
 
 	generated_sprite_156.reset_size_based_on_texture()
 	generated_sprite_156.reset_attributes_based_on_transforms()
@@ -22843,7 +22843,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_157.textures << window.ctx.create_image('assets/sb/f/_026.png')
+	generated_sprite_157.textures << window.backend.create_image('assets/sb/f/_026.png')
 
 	generated_sprite_157.reset_size_based_on_texture()
 	generated_sprite_157.reset_attributes_based_on_transforms()
@@ -22886,7 +22886,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_158.textures << window.ctx.create_image('assets/sb/f/_027.png')
+	generated_sprite_158.textures << window.backend.create_image('assets/sb/f/_027.png')
 
 	generated_sprite_158.reset_size_based_on_texture()
 	generated_sprite_158.reset_attributes_based_on_transforms()
@@ -22929,7 +22929,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_159.textures << window.ctx.create_image('assets/sb/f/_028.png')
+	generated_sprite_159.textures << window.backend.create_image('assets/sb/f/_028.png')
 
 	generated_sprite_159.reset_size_based_on_texture()
 	generated_sprite_159.reset_attributes_based_on_transforms()
@@ -22972,7 +22972,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_160.textures << window.ctx.create_image('assets/sb/f/_029.png')
+	generated_sprite_160.textures << window.backend.create_image('assets/sb/f/_029.png')
 
 	generated_sprite_160.reset_size_based_on_texture()
 	generated_sprite_160.reset_attributes_based_on_transforms()
@@ -23015,7 +23015,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_161.textures << window.ctx.create_image('assets/sb/f/_02a.png')
+	generated_sprite_161.textures << window.backend.create_image('assets/sb/f/_02a.png')
 
 	generated_sprite_161.reset_size_based_on_texture()
 	generated_sprite_161.reset_attributes_based_on_transforms()
@@ -23058,7 +23058,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_162.textures << window.ctx.create_image('assets/sb/f/_00f.png')
+	generated_sprite_162.textures << window.backend.create_image('assets/sb/f/_00f.png')
 
 	generated_sprite_162.reset_size_based_on_texture()
 	generated_sprite_162.reset_attributes_based_on_transforms()
@@ -23101,7 +23101,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_163.textures << window.ctx.create_image('assets/sb/f/_02b.png')
+	generated_sprite_163.textures << window.backend.create_image('assets/sb/f/_02b.png')
 
 	generated_sprite_163.reset_size_based_on_texture()
 	generated_sprite_163.reset_attributes_based_on_transforms()
@@ -23144,7 +23144,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_164.textures << window.ctx.create_image('assets/sb/f/_011.png')
+	generated_sprite_164.textures << window.backend.create_image('assets/sb/f/_011.png')
 
 	generated_sprite_164.reset_size_based_on_texture()
 	generated_sprite_164.reset_attributes_based_on_transforms()
@@ -23187,7 +23187,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_165.textures << window.ctx.create_image('assets/sb/f/_02c.png')
+	generated_sprite_165.textures << window.backend.create_image('assets/sb/f/_02c.png')
 
 	generated_sprite_165.reset_size_based_on_texture()
 	generated_sprite_165.reset_attributes_based_on_transforms()
@@ -23230,7 +23230,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_166.textures << window.ctx.create_image('assets/sb/f/_02d.png')
+	generated_sprite_166.textures << window.backend.create_image('assets/sb/f/_02d.png')
 
 	generated_sprite_166.reset_size_based_on_texture()
 	generated_sprite_166.reset_attributes_based_on_transforms()
@@ -23273,7 +23273,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_167.textures << window.ctx.create_image('assets/sb/f/_011.png')
+	generated_sprite_167.textures << window.backend.create_image('assets/sb/f/_011.png')
 
 	generated_sprite_167.reset_size_based_on_texture()
 	generated_sprite_167.reset_attributes_based_on_transforms()
@@ -23316,7 +23316,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_168.textures << window.ctx.create_image('assets/sb/f/_014.png')
+	generated_sprite_168.textures << window.backend.create_image('assets/sb/f/_014.png')
 
 	generated_sprite_168.reset_size_based_on_texture()
 	generated_sprite_168.reset_attributes_based_on_transforms()
@@ -23359,7 +23359,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_169.textures << window.ctx.create_image('assets/sb/f/_015.png')
+	generated_sprite_169.textures << window.backend.create_image('assets/sb/f/_015.png')
 
 	generated_sprite_169.reset_size_based_on_texture()
 	generated_sprite_169.reset_attributes_based_on_transforms()
@@ -23402,7 +23402,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_170.textures << window.ctx.create_image('assets/sb/f/_016.png')
+	generated_sprite_170.textures << window.backend.create_image('assets/sb/f/_016.png')
 
 	generated_sprite_170.reset_size_based_on_texture()
 	generated_sprite_170.reset_attributes_based_on_transforms()
@@ -23445,7 +23445,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_171.textures << window.ctx.create_image('assets/sb/f/_017.png')
+	generated_sprite_171.textures << window.backend.create_image('assets/sb/f/_017.png')
 
 	generated_sprite_171.reset_size_based_on_texture()
 	generated_sprite_171.reset_attributes_based_on_transforms()
@@ -23488,7 +23488,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_172.textures << window.ctx.create_image('assets/sb/f/_02e.png')
+	generated_sprite_172.textures << window.backend.create_image('assets/sb/f/_02e.png')
 
 	generated_sprite_172.reset_size_based_on_texture()
 	generated_sprite_172.reset_attributes_based_on_transforms()
@@ -23531,7 +23531,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_173.textures << window.ctx.create_image('assets/sb/f/_02f.png')
+	generated_sprite_173.textures << window.backend.create_image('assets/sb/f/_02f.png')
 
 	generated_sprite_173.reset_size_based_on_texture()
 	generated_sprite_173.reset_attributes_based_on_transforms()
@@ -23574,7 +23574,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_174.textures << window.ctx.create_image('assets/sb/f/_030.png')
+	generated_sprite_174.textures << window.backend.create_image('assets/sb/f/_030.png')
 
 	generated_sprite_174.reset_size_based_on_texture()
 	generated_sprite_174.reset_attributes_based_on_transforms()
@@ -23617,7 +23617,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_175.textures << window.ctx.create_image('assets/sb/f/_031.png')
+	generated_sprite_175.textures << window.backend.create_image('assets/sb/f/_031.png')
 
 	generated_sprite_175.reset_size_based_on_texture()
 	generated_sprite_175.reset_attributes_based_on_transforms()
@@ -23660,7 +23660,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_176.textures << window.ctx.create_image('assets/sb/f/_032.png')
+	generated_sprite_176.textures << window.backend.create_image('assets/sb/f/_032.png')
 
 	generated_sprite_176.reset_size_based_on_texture()
 	generated_sprite_176.reset_attributes_based_on_transforms()
@@ -23703,7 +23703,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_177.textures << window.ctx.create_image('assets/sb/f/_033.png')
+	generated_sprite_177.textures << window.backend.create_image('assets/sb/f/_033.png')
 
 	generated_sprite_177.reset_size_based_on_texture()
 	generated_sprite_177.reset_attributes_based_on_transforms()
@@ -23746,7 +23746,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_178.textures << window.ctx.create_image('assets/sb/f/_034.png')
+	generated_sprite_178.textures << window.backend.create_image('assets/sb/f/_034.png')
 
 	generated_sprite_178.reset_size_based_on_texture()
 	generated_sprite_178.reset_attributes_based_on_transforms()
@@ -23789,7 +23789,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_179.textures << window.ctx.create_image('assets/sb/f/_035.png')
+	generated_sprite_179.textures << window.backend.create_image('assets/sb/f/_035.png')
 
 	generated_sprite_179.reset_size_based_on_texture()
 	generated_sprite_179.reset_attributes_based_on_transforms()
@@ -23832,7 +23832,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_180.textures << window.ctx.create_image('assets/sb/f/_036.png')
+	generated_sprite_180.textures << window.backend.create_image('assets/sb/f/_036.png')
 
 	generated_sprite_180.reset_size_based_on_texture()
 	generated_sprite_180.reset_attributes_based_on_transforms()
@@ -23875,7 +23875,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_181.textures << window.ctx.create_image('assets/sb/f/_01f.png')
+	generated_sprite_181.textures << window.backend.create_image('assets/sb/f/_01f.png')
 
 	generated_sprite_181.reset_size_based_on_texture()
 	generated_sprite_181.reset_attributes_based_on_transforms()
@@ -23918,7 +23918,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_182.textures << window.ctx.create_image('assets/sb/f/_037.png')
+	generated_sprite_182.textures << window.backend.create_image('assets/sb/f/_037.png')
 
 	generated_sprite_182.reset_size_based_on_texture()
 	generated_sprite_182.reset_attributes_based_on_transforms()
@@ -23961,7 +23961,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_183.textures << window.ctx.create_image('assets/sb/f/_038.png')
+	generated_sprite_183.textures << window.backend.create_image('assets/sb/f/_038.png')
 
 	generated_sprite_183.reset_size_based_on_texture()
 	generated_sprite_183.reset_attributes_based_on_transforms()
@@ -24004,7 +24004,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_184.textures << window.ctx.create_image('assets/sb/f/_039.png')
+	generated_sprite_184.textures << window.backend.create_image('assets/sb/f/_039.png')
 
 	generated_sprite_184.reset_size_based_on_texture()
 	generated_sprite_184.reset_attributes_based_on_transforms()
@@ -24047,7 +24047,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_185.textures << window.ctx.create_image('assets/sb/f/_03a.png')
+	generated_sprite_185.textures << window.backend.create_image('assets/sb/f/_03a.png')
 
 	generated_sprite_185.reset_size_based_on_texture()
 	generated_sprite_185.reset_attributes_based_on_transforms()
@@ -24090,7 +24090,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_186.textures << window.ctx.create_image('assets/sb/f/_03b.png')
+	generated_sprite_186.textures << window.backend.create_image('assets/sb/f/_03b.png')
 
 	generated_sprite_186.reset_size_based_on_texture()
 	generated_sprite_186.reset_attributes_based_on_transforms()
@@ -24133,7 +24133,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_187.textures << window.ctx.create_image('assets/sb/f/_034.png')
+	generated_sprite_187.textures << window.backend.create_image('assets/sb/f/_034.png')
 
 	generated_sprite_187.reset_size_based_on_texture()
 	generated_sprite_187.reset_attributes_based_on_transforms()
@@ -24176,7 +24176,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_188.textures << window.ctx.create_image('assets/sb/f/_03c.png')
+	generated_sprite_188.textures << window.backend.create_image('assets/sb/f/_03c.png')
 
 	generated_sprite_188.reset_size_based_on_texture()
 	generated_sprite_188.reset_attributes_based_on_transforms()
@@ -24219,7 +24219,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_189.textures << window.ctx.create_image('assets/sb/f/_03d.png')
+	generated_sprite_189.textures << window.backend.create_image('assets/sb/f/_03d.png')
 
 	generated_sprite_189.reset_size_based_on_texture()
 	generated_sprite_189.reset_attributes_based_on_transforms()
@@ -24262,7 +24262,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_190.textures << window.ctx.create_image('assets/sb/f/_01f.png')
+	generated_sprite_190.textures << window.backend.create_image('assets/sb/f/_01f.png')
 
 	generated_sprite_190.reset_size_based_on_texture()
 	generated_sprite_190.reset_attributes_based_on_transforms()
@@ -24305,7 +24305,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_191.textures << window.ctx.create_image('assets/sb/f/_020.png')
+	generated_sprite_191.textures << window.backend.create_image('assets/sb/f/_020.png')
 
 	generated_sprite_191.reset_size_based_on_texture()
 	generated_sprite_191.reset_attributes_based_on_transforms()
@@ -24348,7 +24348,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_192.textures << window.ctx.create_image('assets/sb/f/_03e.png')
+	generated_sprite_192.textures << window.backend.create_image('assets/sb/f/_03e.png')
 
 	generated_sprite_192.reset_size_based_on_texture()
 	generated_sprite_192.reset_attributes_based_on_transforms()
@@ -24391,7 +24391,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_193.textures << window.ctx.create_image('assets/sb/f/_03f.png')
+	generated_sprite_193.textures << window.backend.create_image('assets/sb/f/_03f.png')
 
 	generated_sprite_193.reset_size_based_on_texture()
 	generated_sprite_193.reset_attributes_based_on_transforms()
@@ -24434,7 +24434,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_194.textures << window.ctx.create_image('assets/sb/f/_040.png')
+	generated_sprite_194.textures << window.backend.create_image('assets/sb/f/_040.png')
 
 	generated_sprite_194.reset_size_based_on_texture()
 	generated_sprite_194.reset_attributes_based_on_transforms()
@@ -24477,7 +24477,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_195.textures << window.ctx.create_image('assets/sb/f/_00e.png')
+	generated_sprite_195.textures << window.backend.create_image('assets/sb/f/_00e.png')
 
 	generated_sprite_195.reset_size_based_on_texture()
 	generated_sprite_195.reset_attributes_based_on_transforms()
@@ -24520,7 +24520,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_196.textures << window.ctx.create_image('assets/sb/f/_00f.png')
+	generated_sprite_196.textures << window.backend.create_image('assets/sb/f/_00f.png')
 
 	generated_sprite_196.reset_size_based_on_texture()
 	generated_sprite_196.reset_attributes_based_on_transforms()
@@ -24563,7 +24563,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_197.textures << window.ctx.create_image('assets/sb/f/_041.png')
+	generated_sprite_197.textures << window.backend.create_image('assets/sb/f/_041.png')
 
 	generated_sprite_197.reset_size_based_on_texture()
 	generated_sprite_197.reset_attributes_based_on_transforms()
@@ -24606,7 +24606,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_198.textures << window.ctx.create_image('assets/sb/f/_042.png')
+	generated_sprite_198.textures << window.backend.create_image('assets/sb/f/_042.png')
 
 	generated_sprite_198.reset_size_based_on_texture()
 	generated_sprite_198.reset_attributes_based_on_transforms()
@@ -24649,7 +24649,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_199.textures << window.ctx.create_image('assets/sb/f/_01a.png')
+	generated_sprite_199.textures << window.backend.create_image('assets/sb/f/_01a.png')
 
 	generated_sprite_199.reset_size_based_on_texture()
 	generated_sprite_199.reset_attributes_based_on_transforms()
@@ -24692,7 +24692,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_200.textures << window.ctx.create_image('assets/sb/f/_01b.png')
+	generated_sprite_200.textures << window.backend.create_image('assets/sb/f/_01b.png')
 
 	generated_sprite_200.reset_size_based_on_texture()
 	generated_sprite_200.reset_attributes_based_on_transforms()
@@ -24735,7 +24735,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_201.textures << window.ctx.create_image('assets/sb/f/_01c.png')
+	generated_sprite_201.textures << window.backend.create_image('assets/sb/f/_01c.png')
 
 	generated_sprite_201.reset_size_based_on_texture()
 	generated_sprite_201.reset_attributes_based_on_transforms()
@@ -24778,7 +24778,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_202.textures << window.ctx.create_image('assets/sb/f/_01d.png')
+	generated_sprite_202.textures << window.backend.create_image('assets/sb/f/_01d.png')
 
 	generated_sprite_202.reset_size_based_on_texture()
 	generated_sprite_202.reset_attributes_based_on_transforms()
@@ -24821,7 +24821,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_203.textures << window.ctx.create_image('assets/sb/f/_011.png')
+	generated_sprite_203.textures << window.backend.create_image('assets/sb/f/_011.png')
 
 	generated_sprite_203.reset_size_based_on_texture()
 	generated_sprite_203.reset_attributes_based_on_transforms()
@@ -24864,7 +24864,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_204.textures << window.ctx.create_image('assets/sb/f/_043.png')
+	generated_sprite_204.textures << window.backend.create_image('assets/sb/f/_043.png')
 
 	generated_sprite_204.reset_size_based_on_texture()
 	generated_sprite_204.reset_attributes_based_on_transforms()
@@ -24907,7 +24907,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_205.textures << window.ctx.create_image('assets/sb/f/_044.png')
+	generated_sprite_205.textures << window.backend.create_image('assets/sb/f/_044.png')
 
 	generated_sprite_205.reset_size_based_on_texture()
 	generated_sprite_205.reset_attributes_based_on_transforms()
@@ -24950,7 +24950,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_206.textures << window.ctx.create_image('assets/sb/f/_045.png')
+	generated_sprite_206.textures << window.backend.create_image('assets/sb/f/_045.png')
 
 	generated_sprite_206.reset_size_based_on_texture()
 	generated_sprite_206.reset_attributes_based_on_transforms()
@@ -24993,7 +24993,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_207.textures << window.ctx.create_image('assets/sb/f/_011.png')
+	generated_sprite_207.textures << window.backend.create_image('assets/sb/f/_011.png')
 
 	generated_sprite_207.reset_size_based_on_texture()
 	generated_sprite_207.reset_attributes_based_on_transforms()
@@ -25036,7 +25036,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_208.textures << window.ctx.create_image('assets/sb/f/_046.png')
+	generated_sprite_208.textures << window.backend.create_image('assets/sb/f/_046.png')
 
 	generated_sprite_208.reset_size_based_on_texture()
 	generated_sprite_208.reset_attributes_based_on_transforms()
@@ -25079,7 +25079,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_209.textures << window.ctx.create_image('assets/sb/f/_013.png')
+	generated_sprite_209.textures << window.backend.create_image('assets/sb/f/_013.png')
 
 	generated_sprite_209.reset_size_based_on_texture()
 	generated_sprite_209.reset_attributes_based_on_transforms()
@@ -25122,7 +25122,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_210.textures << window.ctx.create_image('assets/sb/f/_011.png')
+	generated_sprite_210.textures << window.backend.create_image('assets/sb/f/_011.png')
 
 	generated_sprite_210.reset_size_based_on_texture()
 	generated_sprite_210.reset_attributes_based_on_transforms()
@@ -25165,7 +25165,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_211.textures << window.ctx.create_image('assets/sb/f/_047.png')
+	generated_sprite_211.textures << window.backend.create_image('assets/sb/f/_047.png')
 
 	generated_sprite_211.reset_size_based_on_texture()
 	generated_sprite_211.reset_attributes_based_on_transforms()
@@ -25208,7 +25208,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_212.textures << window.ctx.create_image('assets/sb/f/_048.png')
+	generated_sprite_212.textures << window.backend.create_image('assets/sb/f/_048.png')
 
 	generated_sprite_212.reset_size_based_on_texture()
 	generated_sprite_212.reset_attributes_based_on_transforms()
@@ -25251,7 +25251,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_213.textures << window.ctx.create_image('assets/sb/f/_049.png')
+	generated_sprite_213.textures << window.backend.create_image('assets/sb/f/_049.png')
 
 	generated_sprite_213.reset_size_based_on_texture()
 	generated_sprite_213.reset_attributes_based_on_transforms()
@@ -25294,7 +25294,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_214.textures << window.ctx.create_image('assets/sb/f/_04a.png')
+	generated_sprite_214.textures << window.backend.create_image('assets/sb/f/_04a.png')
 
 	generated_sprite_214.reset_size_based_on_texture()
 	generated_sprite_214.reset_attributes_based_on_transforms()
@@ -25337,7 +25337,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_215.textures << window.ctx.create_image('assets/sb/f/_04b.png')
+	generated_sprite_215.textures << window.backend.create_image('assets/sb/f/_04b.png')
 
 	generated_sprite_215.reset_size_based_on_texture()
 	generated_sprite_215.reset_attributes_based_on_transforms()
@@ -25380,7 +25380,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_216.textures << window.ctx.create_image('assets/sb/f/_04c.png')
+	generated_sprite_216.textures << window.backend.create_image('assets/sb/f/_04c.png')
 
 	generated_sprite_216.reset_size_based_on_texture()
 	generated_sprite_216.reset_attributes_based_on_transforms()
@@ -25423,7 +25423,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_217.textures << window.ctx.create_image('assets/sb/f/_04d.png')
+	generated_sprite_217.textures << window.backend.create_image('assets/sb/f/_04d.png')
 
 	generated_sprite_217.reset_size_based_on_texture()
 	generated_sprite_217.reset_attributes_based_on_transforms()
@@ -25466,7 +25466,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_218.textures << window.ctx.create_image('assets/sb/f/_04e.png')
+	generated_sprite_218.textures << window.backend.create_image('assets/sb/f/_04e.png')
 
 	generated_sprite_218.reset_size_based_on_texture()
 	generated_sprite_218.reset_attributes_based_on_transforms()
@@ -25509,7 +25509,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_219.textures << window.ctx.create_image('assets/sb/f/_01d.png')
+	generated_sprite_219.textures << window.backend.create_image('assets/sb/f/_01d.png')
 
 	generated_sprite_219.reset_size_based_on_texture()
 	generated_sprite_219.reset_attributes_based_on_transforms()
@@ -25552,7 +25552,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_220.textures << window.ctx.create_image('assets/sb/f/_04f.png')
+	generated_sprite_220.textures << window.backend.create_image('assets/sb/f/_04f.png')
 
 	generated_sprite_220.reset_size_based_on_texture()
 	generated_sprite_220.reset_attributes_based_on_transforms()
@@ -25595,7 +25595,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_221.textures << window.ctx.create_image('assets/sb/f/_050.png')
+	generated_sprite_221.textures << window.backend.create_image('assets/sb/f/_050.png')
 
 	generated_sprite_221.reset_size_based_on_texture()
 	generated_sprite_221.reset_attributes_based_on_transforms()
@@ -25638,7 +25638,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_222.textures << window.ctx.create_image('assets/sb/f/_051.png')
+	generated_sprite_222.textures << window.backend.create_image('assets/sb/f/_051.png')
 
 	generated_sprite_222.reset_size_based_on_texture()
 	generated_sprite_222.reset_attributes_based_on_transforms()
@@ -25681,7 +25681,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_223.textures << window.ctx.create_image('assets/sb/f/_01f.png')
+	generated_sprite_223.textures << window.backend.create_image('assets/sb/f/_01f.png')
 
 	generated_sprite_223.reset_size_based_on_texture()
 	generated_sprite_223.reset_attributes_based_on_transforms()
@@ -25724,7 +25724,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_224.textures << window.ctx.create_image('assets/sb/f/_052.png')
+	generated_sprite_224.textures << window.backend.create_image('assets/sb/f/_052.png')
 
 	generated_sprite_224.reset_size_based_on_texture()
 	generated_sprite_224.reset_attributes_based_on_transforms()
@@ -25775,7 +25775,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_225.textures << window.ctx.create_image('assets/sb/d/_000.png')
+	generated_sprite_225.textures << window.backend.create_image('assets/sb/d/_000.png')
 
 	generated_sprite_225.reset_size_based_on_texture()
 	generated_sprite_225.reset_attributes_based_on_transforms()
@@ -25826,7 +25826,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_226.textures << window.ctx.create_image('assets/sb/d/_001.png')
+	generated_sprite_226.textures << window.backend.create_image('assets/sb/d/_001.png')
 
 	generated_sprite_226.reset_size_based_on_texture()
 	generated_sprite_226.reset_attributes_based_on_transforms()
@@ -25877,7 +25877,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_227.textures << window.ctx.create_image('assets/sb/d/_002.png')
+	generated_sprite_227.textures << window.backend.create_image('assets/sb/d/_002.png')
 
 	generated_sprite_227.reset_size_based_on_texture()
 	generated_sprite_227.reset_attributes_based_on_transforms()
@@ -25928,7 +25928,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_228.textures << window.ctx.create_image('assets/sb/d/_000.png')
+	generated_sprite_228.textures << window.backend.create_image('assets/sb/d/_000.png')
 
 	generated_sprite_228.reset_size_based_on_texture()
 	generated_sprite_228.reset_attributes_based_on_transforms()
@@ -25979,7 +25979,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_229.textures << window.ctx.create_image('assets/sb/d/_003.png')
+	generated_sprite_229.textures << window.backend.create_image('assets/sb/d/_003.png')
 
 	generated_sprite_229.reset_size_based_on_texture()
 	generated_sprite_229.reset_attributes_based_on_transforms()
@@ -26030,7 +26030,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_230.textures << window.ctx.create_image('assets/sb/d/_004.png')
+	generated_sprite_230.textures << window.backend.create_image('assets/sb/d/_004.png')
 
 	generated_sprite_230.reset_size_based_on_texture()
 	generated_sprite_230.reset_attributes_based_on_transforms()
@@ -26081,7 +26081,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_231.textures << window.ctx.create_image('assets/sb/d/_005.png')
+	generated_sprite_231.textures << window.backend.create_image('assets/sb/d/_005.png')
 
 	generated_sprite_231.reset_size_based_on_texture()
 	generated_sprite_231.reset_attributes_based_on_transforms()
@@ -26132,7 +26132,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_232.textures << window.ctx.create_image('assets/sb/d/_006.png')
+	generated_sprite_232.textures << window.backend.create_image('assets/sb/d/_006.png')
 
 	generated_sprite_232.reset_size_based_on_texture()
 	generated_sprite_232.reset_attributes_based_on_transforms()
@@ -26183,7 +26183,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [255.0]
 		after: [0.0]
 	)
-	generated_sprite_233.textures << window.ctx.create_image('assets/sb/d/_007.png')
+	generated_sprite_233.textures << window.backend.create_image('assets/sb/d/_007.png')
 
 	generated_sprite_233.reset_size_based_on_texture()
 	generated_sprite_233.reset_attributes_based_on_transforms()
@@ -26218,7 +26218,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [600.0, 220.0]
 		after: [600.0, 220.0]
 	)
-	generated_sprite_234.textures << window.ctx.create_image('assets/sb/c/_000.png')
+	generated_sprite_234.textures << window.backend.create_image('assets/sb/c/_000.png')
 
 	generated_sprite_234.reset_size_based_on_texture()
 	generated_sprite_234.reset_attributes_based_on_transforms()
@@ -26253,7 +26253,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [600.0, 220.0]
 		after: [600.0, 220.0]
 	)
-	generated_sprite_235.textures << window.ctx.create_image('assets/sb/c/_001.png')
+	generated_sprite_235.textures << window.backend.create_image('assets/sb/c/_001.png')
 
 	generated_sprite_235.reset_size_based_on_texture()
 	generated_sprite_235.reset_attributes_based_on_transforms()
@@ -26288,7 +26288,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [600.0, 220.0]
 		after: [600.0, 220.0]
 	)
-	generated_sprite_236.textures << window.ctx.create_image('assets/sb/c/_002.png')
+	generated_sprite_236.textures << window.backend.create_image('assets/sb/c/_002.png')
 
 	generated_sprite_236.reset_size_based_on_texture()
 	generated_sprite_236.reset_attributes_based_on_transforms()
@@ -26347,7 +26347,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [600.0, 260.0]
 		after: [600.0, 260.0]
 	)
-	generated_sprite_237.textures << window.ctx.create_image('assets/sb/c/_003.png')
+	generated_sprite_237.textures << window.backend.create_image('assets/sb/c/_003.png')
 
 	generated_sprite_237.reset_size_based_on_texture()
 	generated_sprite_237.reset_attributes_based_on_transforms()
@@ -26382,7 +26382,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [600.0, 260.0]
 		after: [600.0, 260.0]
 	)
-	generated_sprite_238.textures << window.ctx.create_image('assets/sb/c/_009.png')
+	generated_sprite_238.textures << window.backend.create_image('assets/sb/c/_009.png')
 
 	generated_sprite_238.reset_size_based_on_texture()
 	generated_sprite_238.reset_attributes_based_on_transforms()
@@ -26417,7 +26417,7 @@ pub fn (mut window Window) load_kyu_kurarin() {
 		before: [600.0, 240.0]
 		after: [600.0, 240.0]
 	)
-	generated_sprite_239.textures << window.ctx.create_image('assets/sb/c/_00a.png')
+	generated_sprite_239.textures << window.backend.create_image('assets/sb/c/_00a.png')
 
 	generated_sprite_239.reset_size_based_on_texture()
 	generated_sprite_239.reset_attributes_based_on_transforms()

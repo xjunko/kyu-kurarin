@@ -12,9 +12,6 @@ mut:
 }
 
 pub fn (mut window Window) init(_ voidptr) {
-	// FPS
-	window.ctx.fps.show = true
-
 	window.load_kyu_kurarin()
 
 	// Audio
@@ -58,15 +55,15 @@ pub fn (mut window Window) init(_ voidptr) {
 pub fn (mut window Window) draw(_ voidptr) {
 	window.mutex.@lock()
 
-	window.ctx.begin()
+	window.backend.begin()
 
 	window.sprite_manager.draw(
-		ctx: window.ctx
+		backend: window.backend
 		scale: 1.500000000000001
 		offset: vector.Vector2[f64]{159.99999999999972, -2.8421709430404007e-13}
 	)
 
-	window.ctx.end()
+	window.backend.end()
 
 	window.mutex.unlock()
 }
