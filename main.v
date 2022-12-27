@@ -47,7 +47,7 @@ pub fn (mut window Window) init(_ voidptr) {
 		window.local_time_counter = time_counter
 
 		// Song
-		mut song := window.audio.load_audio('/run/media/junko/2nd/Games/osu!/Songs/1591460 Iyowa feat KAFU - Kyu-kurarin/kurar.mp3')
+		mut song := window.audio.load_audio('assets/audio.mp3')
 
 		// TODO:
 		song.set_volume(0.25) // only BASS backend support this
