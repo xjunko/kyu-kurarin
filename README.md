@@ -2,7 +2,7 @@
 
 a simple recreation of the kyu-kurarin pv
 
-![](https://cdn.discordapp.com/attachments/703552229680087042/1046385821172899901/image.png)
+![image](https://user-images.githubusercontent.com/44401509/209596753-28b1fd39-d764-4cb3-a75c-6b9948b35f2d.png)
 
 # running
 
