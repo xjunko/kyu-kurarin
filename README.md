@@ -12,11 +12,13 @@ Compile with `gcc` or `clang`.
 git clone https://github.com/xjunko/Echidna
 git clone https://github.com/xjunko/kyu-kurarin 
 
-mv -f kyu-kurarin/src Echidna/src
+mv -f kyu-kurarin/src/beatrice/app/kyu_kurarin Echidna/src/beatrice/app/
 mv -f kyu-kurarin/assets Echidna/assets
 
-cd Echidna
-v -cc clang -d sc_kyukurarin -o app && ./app
+# open Echidna/src/main.v
+# add kyu-kurarin application
+# then
+v -cc clang -o app && ./app
 ```
 
 # credits
