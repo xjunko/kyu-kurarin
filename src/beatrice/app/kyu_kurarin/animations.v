@@ -1,9 +1,9 @@
-module kyu_kurarin
+module kyukurarin
 
-import beatrice.graphic.sprite
-import beatrice.math.vector
-import beatrice.math.easing
-import beatrice.math.timer
+import beatrice.drawable.sprite
+import beatrice.util.math.vector
+import beatrice.util.math.easing
+import beatrice.util.math.timer
 
 pub fn (mut application KyuKurarinApplication) load_kyu_kurarin() {
 	// Translated parsed storyboard to Echidna's framework sprite system.
