@@ -1,10 +1,10 @@
-module kyu_kurarin
+module kyukurarin
 
 import beatrice.app
 import beatrice.engine
-import beatrice.graphic.sprite
+import beatrice.drawable.sprite
 import beatrice.engine.renderer
-import beatrice.math.vector
+import beatrice.util.math.vector
 
 // Offset
 const offset = f64(2000.0)
