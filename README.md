@@ -2,7 +2,8 @@
 
 A simple recreation of `kyu-kurarin`'s PV in [[Echidna engine]](https://github.com/xjunko/Echidna).
 
-![image](https://user-images.githubusercontent.com/44401509/209596753-28b1fd39-d764-4cb3-a75c-6b9948b35f2d.png)
+![image](https://github.com/user-attachments/assets/3aba9954-5792-4681-81ba-afc37e3338bd)
+
 
 # running
 
